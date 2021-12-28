@@ -27,8 +27,8 @@ services:
     volumes:
       - ./pgadmin:/var/lib/pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: pgadmin4@example.com
-      PGADMIN_DEFAULT_PASSWORD: postgres
+      PGADMIN_DEFAULT_EMAIL: your email address
+      PGADMIN_DEFAULT_PASSWORD: something password
     hostname: pgadmin4
     depends_on:
       - postgres
